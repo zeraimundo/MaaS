@@ -92,7 +92,7 @@ Aqui você utilizará o usuário e senha criados no <b>Passo 5</b>.
 Parabéns! Você concluiu a instalação e configuração do MaaS. Agora, seu serviço MaaS está pronto para ser configurado em seu servidor.
 
 Ajuda e Suporte
-Em caso de problemas durante a instalação ou uso do MaaS, consulte a <a href="https://maas.io/docs">documentação oficial do MaaS</a> ou visite o <a href="https://github.com/canonical/maas">repositório do MaaS no GitHub</a> para obter suporte.
+Em caso de problemas durante a instalação ou uso do MaaS, consulte a <a href="https://maas.io/docs">documentação oficial do MaaS</a> ou visite o <a href="https://github.com/maas/maas">repositório do MaaS no GitHub</a> para obter suporte.
 
 Contribuição
 Se você deseja contribuir para este tutorial ou relatar problemas, sinta-se à vontade para abrir um problema ou enviar um pull request no repositório do GitHub.
