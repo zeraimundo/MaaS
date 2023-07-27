@@ -39,6 +39,7 @@ sudo apt install postgresql
 Criaremos um banco de dados para o MaaS, um usuário no PostgreSQL e garantiremos o acesso total deste usuário ao banco recém criado. Para isso, abra um terminal e execute o seguinte comando:
 
 ```bash
+sudo -u postgres psql
 create user 'nome_do_usuário' with encrypted password 'senha_do_usuário';
 create database maas;
 grant all privileges on database maas to 'nome_do_usuário';
