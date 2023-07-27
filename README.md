@@ -40,12 +40,12 @@ Criaremos um banco de dados para o MaaS, um usuário no PostgreSQL e garantiremo
 
 ```bash
 sudo -u postgres psql
-create user 'nome_do_usuário' with encrypted password 'senha_do_usuário';
+create user nome_do_usuário with encrypted password 'senha_do_usuário';
 create database maas;
 grant all privileges on database maas to 'nome_do_usuário';
 \q 
 ```
-Substitua 'nome_do_usuário' e 'senha_do_usuário' pelo nome e senha desejada (não coloque as aspas).
+Substitua nome_do_usuário e senha_do_usuário pelo nome e senha desejada.
 
 Agora editaremos o arquivo de configuração do PostgreSQL <b>pg_hba.conf</b>. Este arqivo encontra-se na pasta de configuração do PostgreSQL e seu endereço pode variar de acordo com a versão instalada do PostgreSQL no seu sistema. Neste tutorial utilizamos a versão <b>14</b>, logo a pasta de configuração onde o arquivo se encontra está em: /etc/postgresql/<b>14</b>/main.
 
