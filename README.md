@@ -42,7 +42,7 @@ Criaremos um banco de dados para o MaaS, um usuário no PostgreSQL e garantiremo
 sudo -u postgres psql
 create user nome_do_usuário with encrypted password 'senha_do_usuário';
 create database maas;
-grant all privileges on database maas to 'nome_do_usuário';
+grant all privileges on database maas to nome_do_usuário;
 \q 
 ```
 Substitua nome_do_usuário e senha_do_usuário pelo nome e senha desejada.
